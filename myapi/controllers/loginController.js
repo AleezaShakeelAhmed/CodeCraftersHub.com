@@ -4,7 +4,7 @@ const logs=require('./logs');
 
 const secretKey = '1234567890qwertyuiopasdfghjklzxcvbnm'; 
 const customerSecretKey = 'sjhfdskfhkj34324khk32h4kh3k24hk32h4k32j'; 
-
+//generate token
 function generateToken(user,role) {
   console.log(user.Role);
   const payload = {
