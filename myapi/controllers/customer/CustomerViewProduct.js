@@ -17,7 +17,7 @@ function getAllProductsForCustomer(req, res){
     logs.log(err,'Customer','/customerViewProduct');
   }
 };
-
+//specific
 function getSpecificProductsForCustomer(req, res){
     try{
     const productId=req.query.productID;
