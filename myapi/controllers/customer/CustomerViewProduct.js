@@ -54,6 +54,7 @@ function getBuyProductsForCustomer(req, res){
   }
 };
 
+//category
 function getProductsByCategory(req, res) {
     try {
         const category = req.query.category;
