@@ -1,0 +1,36 @@
+.hireme1 {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: white;
+    background: rgb(82, 164, 241);
+    border-radius: 400px;
+    border: none;
+    display: inline-block;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+  }
+  
+  .hireme1:hover {
+    transform: scale(1.05);
+    background: darkblue;
+  }
+  .myProduct {
+    margin: 0px 200px 0px 200px;
+    padding-top:120px;
+  }
+
+  @media (max-width: 970px) {
+    .hireme1 {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .myRoom {
+      margin: 0px 20px 0px 20px;
+    }
+  }
